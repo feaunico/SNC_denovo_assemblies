@@ -1,3 +1,5 @@
 Python script for assembly pipeline with Flye, Racon and Pilon for Oxford Nanopore and Illumina PE reads
 
-Usage: python 
+Usage: python Flye_assbl_polish.py
+
+ON reads are assembled with Flye; then 4 rounds of polishing with Racon using ON reads and 8 rounds of polishing with Pilon using Illumina PE reads
